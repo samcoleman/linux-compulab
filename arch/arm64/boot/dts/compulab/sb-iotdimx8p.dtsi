@@ -311,6 +311,10 @@
 	status = "disable";
 };
 
+&fec1 {
+  status = "disable";
+};
+
 /***** I/O TERMINAL BLOCK - End *****/
 
 &usb_dwc3_0 {
