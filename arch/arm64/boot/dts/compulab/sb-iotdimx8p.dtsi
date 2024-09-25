@@ -311,7 +311,9 @@
 	status = "disable";
 };
 
-&fec1 {
+
+// DISABLE ETH1
+&eqos { 
   status = "disable";
 };
 
