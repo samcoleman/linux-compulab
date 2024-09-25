@@ -298,17 +298,17 @@
 /***** I/O TERMINAL BLOCK - Begin *****/
 &flexcan2 {
 	/* POD1: CAN */
-	status = "okay";
+	status = "disable";
 };
 
 &uart3 {
 	/* POD3: RS232 */
-	status = "okay";
+	status = "disable";
 };
 
 &uart4 {
 	/* POD2: RS-485 */
-	status = "okay";
+	status = "disable";
 };
 
 /***** I/O TERMINAL BLOCK - End *****/
